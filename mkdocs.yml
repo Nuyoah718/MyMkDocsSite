@@ -1,6 +1,14 @@
-site_name: My Notes
+site_name: 半落天外的笔记
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换夜间模式
 nav:
   - 首页: index.md
   - ES源码学习 :
