@@ -1,0 +1,33 @@
+name: Deploy MkDocs site
+
+on:
+  push:
+    branches:
+      - main  # 每次推送到 main 分支时触发
+  workflow_dispatch:  # 也支持手动触发
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ 获取仓库内容
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ 设置 Python 环境
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3️⃣ 安装 MkDocs 和主题
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+
+      # 4️⃣ 构建并部署
+      - name: Build and Deploy
+        run: |
+          mkdocs gh-deploy --force
+

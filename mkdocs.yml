@@ -1,6 +1,6 @@
 site_name: My Notes
 theme:
-  name: readthedocs
+  name: material
 nav:
   - 首页: index.md
   - ES源码学习 :
