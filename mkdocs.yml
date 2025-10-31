@@ -1,6 +1,14 @@
 site_name: 半落天外的笔记
+site_url: https://Nuyoah718.github.io/MyMkDocsSite/
 theme:
   name: material
+  eatures:
+    - navigation.instant
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github   # 使用 GitHub 图标
+  repo_url: https://github.com/Nuyoah718/MyMkDocsSite
+  repo_name: Nuyoah718/MyMkDocsSite
   palette:
     - scheme: default
       primary: indigo
