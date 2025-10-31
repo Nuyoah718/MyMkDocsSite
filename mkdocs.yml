@@ -28,3 +28,5 @@ nav:
       - 简介: ES源码学习/README.md
       - 写入: ES源码学习/写入.md
       - 插件开发: ES源码学习/Fastbulk设计文档.md
+  - 工具学习:
+      - Mkdocs部署: 工具学习/mkdocs部署.md
