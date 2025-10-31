@@ -26,4 +26,5 @@ nav:
   - 首页: index.md
   - ES源码学习:
       - 简介: ES源码学习/README.md
-      - 笔记: ES源码学习/Notes.md
+      - 写入: ES源码学习/写入.md
+      - 插件开发: ES源码学习/Fastbulk设计文档.md
