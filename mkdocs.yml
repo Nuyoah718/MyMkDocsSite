@@ -1,14 +1,14 @@
 site_name: 半落天外的笔记
 site_url: https://Nuyoah718.github.io/MyMkDocsSite/
+
 theme:
   name: material
-  eatures:
+  language: zh
+  features:
     - navigation.instant
     - navigation.top
   icon:
-    repo: fontawesome/brands/github   # 使用 GitHub 图标
-  repo_url: https://github.com/Nuyoah718/MyMkDocsSite
-  repo_name: Nuyoah718/MyMkDocsSite
+    repo: fontawesome/brands/github   # 右上角 GitHub 图标
   palette:
     - scheme: default
       primary: indigo
@@ -17,8 +17,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: 切换夜间模式
+
+# 仓库信息（显示在右上角）
+repo_url: https://github.com/Nuyoah718/MyMkDocsSite
+repo_name: Nuyoah718/MyMkDocsSite
+
 nav:
   - 首页: index.md
-  - ES源码学习 :
+  - ES源码学习:
       - 简介: ES源码学习/README.md
       - 笔记: ES源码学习/Notes.md
